@@ -49,3 +49,7 @@ receive() exists?  fallback()
     receive()   fallback()
 ```
 
+# call vs delegate call
+
+- call: executes code in the target contract’s context.
+- delegate call: executes code from the target contract, but in the calling contract’s context.

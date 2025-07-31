@@ -1,5 +1,5 @@
 ---
-title: "Access Control"
+title: "Multi call"
 tags: ["Solidity", "App", "Contract"]
 ---
 
