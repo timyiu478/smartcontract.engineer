@@ -49,6 +49,3 @@ receive() exists?  fallback()
     receive()   fallback()
 ```
 
-# What is library?
-
-
