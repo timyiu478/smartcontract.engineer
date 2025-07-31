@@ -2,7 +2,7 @@
 
 This repository contains some of my notes to the smartcontract.engineer challenges.
 
-Note: These notes are provided as learning resources only!!! Please do not copy them — they're here to support understanding, not serve as plug-and-play answers.
+> Note: These notes are provided as learning resources only!!! Please do not copy them — they're here to support understanding, not serve as plug-and-play answers. The code is not security reviewed!!
 
 # Selected Notes
 
