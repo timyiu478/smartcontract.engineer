@@ -9,3 +9,4 @@ Note: These notes are provided as learning resources only!!! Please do not copy 
 | #  | Name                   | Link              | Tags     |
 |----|--------------------------------|------------------|---------|
 | 1  | Implement ECR20 Token Standard         | [View](notes/solidity/ecr20.md) | `Solidity`, `Payment`, `App`        |
+| 2  | Implement Multi-Sig Wallet         | [View](notes/solidity/multi_sig_wallet.md) | `Solidity`, `Payment`, `App`        |
