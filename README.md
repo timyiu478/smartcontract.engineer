@@ -8,9 +8,9 @@ This repository contains some of my notes to the smartcontract.engineer challeng
 
 | #  | Name                   | Link              | Tags     |
 |----|--------------------------------|------------------|---------|
-| 1  | Implement ERC-20 Token Standard         | [View](notes/solidity/ecr20.md) | `Solidity`, `Payment`, `App`        |
+| 1  | Implement ERC-20 Fungible Token Standard         | [View](notes/solidity/ecr20.md) | `Solidity`, `Payment`, `App`        |
 | 2  | Implement Multi-Sig Wallet         | [View](notes/solidity/multi_sig_wallet.md) | `Solidity`, `Payment`, `App`        |
-| 3  | Implement ERC-721 NFT         | [View](notes/solidity/ecr721.md) | `Solidity`, `Payment`, `App`        |
+| 3  | Implement ERC-721 Non-Fungible Token Standard         | [View](notes/solidity/ecr721.md) | `Solidity`, `Payment`, `App`        |
 | 4  | Time Lock        | [View](notes/solidity/time_lock.md) | `Solidity`, `DAO`       |
 | 5  | Constant Sum Automated Market Maker       | [View](notes/solidity/constant_sum_amm.md) | `Solidity`, `DeFi`       |
 

@@ -3,6 +3,12 @@ title: "ERC20"
 tags: ["Solidity", "Payment", "App"]
 ---
 
+# Motivation of ECR20 Token Standard
+
+A standard interface allows any tokens on Ethereum to be re-used by other applications: from wallets to decentralized exchanges.
+
+
+
 # Description
 
 Implement ERC20.
