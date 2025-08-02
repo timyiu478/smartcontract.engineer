@@ -12,7 +12,7 @@ This repository contains some of my notes to the smartcontract.engineer challeng
 | 2  | Implement Multi-Sig Wallet         | [View](notes/solidity/multi_sig_wallet.md) | `Solidity`, `Payment`, `App`        |
 | 3  | Implement ERC-721 Non-Fungible Token Standard         | [View](notes/solidity/ecr721.md) | `Solidity`, `Payment`, `App`        |
 | 4  | Time Lock        | [View](notes/solidity/time_lock.md) | `Solidity`, `DAO`       |
-| 5  | Constant Sum Automated Market Maker       | [View](notes/solidity/constant_sum_amm.md) | `Solidity`, `DeFi`       |
+| 5  | Constant Sum Automated Market Maker       | [View](notes/solidity/defi/constant_sum_amm.md) | `Solidity`, `DeFi`       |
 
 # Useful Links
 
