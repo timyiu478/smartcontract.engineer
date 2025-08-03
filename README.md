@@ -13,6 +13,7 @@ This repository contains some of my notes to the smartcontract.engineer challeng
 | 3  | Implement ERC-721 Non-Fungible Token Standard         | [View](notes/solidity/ecr721.md) | `Solidity`, `Payment`, `App`        |
 | 4  | Time Lock        | [View](notes/solidity/time_lock.md) | `Solidity`, `DAO`       |
 | 5  | Constant Sum Automated Market Maker       | [View](notes/solidity/defi/constant_sum_amm.md) | `Solidity`, `DeFi`       |
+| 6  | Use Chainlink Price Oracle to get ETH price     | [View](notes/solidity/defi/chainlink_price_oracle.md) | `Solidity`, `DeFi`, `Chainlink`       |
 
 # Useful Links
 

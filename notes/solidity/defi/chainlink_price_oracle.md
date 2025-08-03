@@ -1,6 +1,6 @@
 ---
 title: "ChainLink Price Oracle"
-tags: ["Solidity", "ChainLink", "DeFi"]
+tags: ["Solidity", "ChainLink", "DeFi", "Real-World Assets"]
 ---
 
 # Description
@@ -44,4 +44,39 @@ interface AggregatorV3Interface {
 
 # Solution
 
-todo
+```sol
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.26;
+
+interface AggregatorV3Interface {
+    function latestRoundData()
+        external
+        view
+        returns (
+            // Round id the answer was created in
+            uint80 roundId,
+            // Answer - the price
+            int256 answer,
+            // Timestamp when the round started
+            uint256 startedAt,
+            // Timestamp when the round was updated
+            uint256 updatedAt,
+            // Legacy round id - no longer needed
+            uint80 answeredInRound
+        );
+}
+
+contract PriceOracle {
+    // Chainlink price feed for ETH / USD
+    address private constant ETH_USD =
+        0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419;
+
+    function getPrice() public view returns (uint256) {
+        AggregatorV3Interface priceFeed = AggregatorV3Interface(ETH_USD);
+        (uint80 roundId, int price, uint startedAt, uint updatedAt, uint80 answeredInRound) = priceFeed.latestRoundData();
+        require((block.timestamp - updatedAt) <= 3 hours, "the price was not updated within the last 3 hours");
+        require(price >= 0, "the price needs to great than or equal to 0");
+        return uint256(price) * 1e10;
+    }
+}
+```
