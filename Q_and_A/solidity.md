@@ -53,3 +53,8 @@ receive() exists?  fallback()
 
 - call: executes code in the target contract’s context.
 - delegate call: executes code from the target contract, but in the calling contract’s context.
+
+# Creation code vs Runtime code
+
+- Creation code: the bytecode executed only once during the deployment of a smart contract. Its primary role is to **initialize the contract's state** and to return the runtime code that will be stored on the blockchain.
+- Runtime code: The runtime code is the bytecode that is actually stored on the Ethereum blockchain and represents the **deployed smart contract**. This is the code that users and other contracts interact with after deployment.

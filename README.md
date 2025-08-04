@@ -14,6 +14,7 @@ This repository contains some of my notes to the smartcontract.engineer challeng
 | 4  | Time Lock        | [View](notes/solidity/time_lock.md) | `Solidity`, `DAO`       |
 | 5  | Constant Sum Automated Market Maker       | [View](notes/solidity/defi/constant_sum_amm.md) | `Solidity`, `DeFi`       |
 | 6  | Use Chainlink Price Oracle to get ETH price     | [View](notes/solidity/defi/chainlink_price_oracle.md) | `Solidity`, `DeFi`, `Chainlink`       |
+| 7  | Simple ByteCode Contract     | [View](notes/solidity/simple_bytecode_contract.md) | `Solidity`, `EVM`       |
 
 # Useful Links
 
